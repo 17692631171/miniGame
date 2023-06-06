@@ -1,4 +1,4 @@
-package com.example.minigame.utils;
+package com.example.miniGame.utils;
 
 /**
  * String工具类

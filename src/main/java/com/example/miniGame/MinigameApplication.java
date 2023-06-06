@@ -1,4 +1,4 @@
-package com.example.minigame;
+package com.example.miniGame;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

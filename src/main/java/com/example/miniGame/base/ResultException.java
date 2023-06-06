@@ -1,4 +1,4 @@
-package com.example.minigame.base;
+package com.example.miniGame.base;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ public class ResultException {
      * 默认全局异常处理。
      * @param e the e
      * @return ResultData
-     *//*
+     */
     private static final Logger log = LoggerFactory.getLogger(ResultException.class);
     @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
@@ -65,5 +65,5 @@ public class ResultException {
 
         log.error("参数校验异常:{}",resp.getMessage());
         return new ResponseEntity<>(resp,HttpStatus.BAD_REQUEST);
-    }*/
+    }
 }

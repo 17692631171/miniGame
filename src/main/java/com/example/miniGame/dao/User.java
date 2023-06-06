@@ -1,4 +1,4 @@
-package com.example.minigame.dao;
+package com.example.miniGame.dao;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;

@@ -1,7 +1,7 @@
-package com.example.minigame.mapper;
+package com.example.miniGame.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.minigame.dao.User;
+import com.example.miniGame.dao.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

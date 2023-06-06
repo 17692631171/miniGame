@@ -1,4 +1,4 @@
-package com.example.minigame.base;
+package com.example.miniGame.base;
 
 /**
  * @author Administrator

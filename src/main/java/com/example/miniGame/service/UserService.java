@@ -1,6 +1,6 @@
-package com.example.minigame.service;
+package com.example.miniGame.service;
 
-import com.example.minigame.dao.User;
+import com.example.miniGame.dao.User;
 import org.springframework.stereotype.Service;
 
 @Service

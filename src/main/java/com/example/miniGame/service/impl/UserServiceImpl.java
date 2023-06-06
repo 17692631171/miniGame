@@ -1,9 +1,9 @@
-package com.example.minigame.service.impl;
+package com.example.miniGame.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.minigame.dao.User;
-import com.example.minigame.mapper.UserMapper;
-import com.example.minigame.service.UserService;
+import com.example.miniGame.dao.User;
+import com.example.miniGame.mapper.UserMapper;
+import com.example.miniGame.service.UserService;
 import org.springframework.stereotype.Service;
 
 @Service

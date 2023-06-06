@@ -1,9 +1,9 @@
-package com.example.minigame.controller;
+package com.example.miniGame.controller;
 
 
-import com.example.minigame.base.ResultBase;
-import com.example.minigame.dao.User;
-import com.example.minigame.service.UserService;
+import com.example.miniGame.base.ResultBase;
+import com.example.miniGame.dao.User;
+import com.example.miniGame.service.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

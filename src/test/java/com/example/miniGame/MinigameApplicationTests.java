@@ -1,4 +1,4 @@
-package com.example.minigame;
+package com.example.miniGame;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
