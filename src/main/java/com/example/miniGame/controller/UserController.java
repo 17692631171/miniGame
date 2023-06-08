@@ -22,15 +22,11 @@ public class UserController {
     }
     @PostMapping("/getUser")
     public User getUser(User user){
-        ResultBase resultBase = new ResultBase();
-        User resultUser = userService.getUser(user);
-        System.out.println(resultUser);
-        return resultUser;
+        return userService.getUser(user);
     }
     @RequestMapping("/regUser")
     public String regUser(User user){
-        ResultBase resultBase = new ResultBase();
         Integer result = userService.regUser(user);
-        return "成功";
+        return  result+"";
     }
 }

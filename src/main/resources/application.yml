@@ -27,7 +27,7 @@ spring:
       #允许出现单引号
       allow_single_quotes: true
 logging:
-  config: classpath:config/logback-${spring.profiles.active}.xml
+  config: classpath:config/${spring.profiles.active}/logback-spring.xml
   file:
     path: D:/logs
   level:

@@ -29,7 +29,7 @@ public class ResultException {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResultBase exception(Exception e) {
         log.error("全局异常信息 ex={}", e.getMessage(), e);
-        return ResultBase.fail(ResultCodeEnum.RC500.getCode(),e.getMessage());
+        return ResultBase.fail(ResultCodeEnum.RC500.getCode(),ResultCodeEnum.RC500.getMessage());
     }
 
 
