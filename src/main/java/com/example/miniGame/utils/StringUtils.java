@@ -2,6 +2,7 @@ package com.example.miniGame.utils;
 
 /**
  * String工具类
+ * @author zhangyu
  */
 public class StringUtils {
     public static Boolean isNotBlank(String str){
