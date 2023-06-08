@@ -8,13 +8,20 @@ import java.io.Serializable;
  */
 public class ResultBase implements Serializable {
     private static final long serialVersionUID = 8676392564995403365L;
-    private int state; //状态
-    private String message;//消息
-    private Object data;//数据
-    private final long timestamp;//耗时
+    /**
+     * 状态
+     */
+    private int state;
+    /**
+     * 消息
+     */
+    private String message;
+    /**
+     * 数据
+     */
+    private Object data;
 
     public ResultBase() {
-        this.timestamp = System.currentTimeMillis();
     }
 
     public static ResultBase ok(Object data){
